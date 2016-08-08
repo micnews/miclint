@@ -1,11 +1,11 @@
 {
-  "name": "@mic/miclint-cli",
+  "name": "miclint",
   "version": "0.0.1",
   "description": "mic lint cli",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/micnews/miclint-cli.git"
+    "url": "git+https://github.com/micnews/miclint.git"
   },
   "bin": {
     "miclint": "bin.js"
@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/micnews/miclint-cli/issues"
+    "url": "https://github.com/micnews/miclint/issues"
   },
-  "homepage": "https://github.com/micnews/miclint-cli#readme",
+  "homepage": "https://github.com/micnews/miclint#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

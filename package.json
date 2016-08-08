@@ -1,0 +1,34 @@
+{
+  "name": "@mic/miclint-cli",
+  "version": "0.0.1",
+  "description": "mic lint cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micnews/miclint-cli.git"
+  },
+  "bin": {
+    "miclint": "bin.js"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micnews/miclint-cli/issues"
+  },
+  "homepage": "https://github.com/micnews/miclint-cli#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx": "0.0.2",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "standard-engine": "^4.1.3"
+  }
+}

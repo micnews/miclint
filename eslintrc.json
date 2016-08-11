@@ -11,6 +11,6 @@
     "react/jsx-no-duplicate-props": 2
   },
   "env": {
-    "browser": false
+    "browser": true
   }
 }

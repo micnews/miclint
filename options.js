@@ -1,7 +1,6 @@
 var path = require('path');
 var pkg = require('./package.json');
 
-
 module.exports = {
   cmd: 'miclint',
   version: pkg.version,

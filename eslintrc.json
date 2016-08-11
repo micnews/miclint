@@ -2,7 +2,7 @@
   "extends": "airbnb",
   "rules": {
     "comma-dangle": [2, "never"],
-    "no-underscore-dangle": ["allow"],
+    "no-underscore-dangle": [0],
     "jsx-quotes": [2, "prefer-single"],
 
     "jsx-a11y/label-has-for": [0],

@@ -1,5 +1,8 @@
 {
   "extends": "airbnb",
+  "plugins": [
+    "babel"
+  ],
   "rules": {
     "comma-dangle": [2, "never"],
     "no-underscore-dangle": [0],
@@ -11,8 +14,12 @@
     "react/jsx-filename-extension": [0],
     "react/no-direct-mutation-state": 2,
     "react/jsx-boolean-value": [2, "always"],
-    "react/jsx-no-duplicate-props": 2
+    "react/jsx-no-duplicate-props": 2,
+
+    "generator-star-spacing": 0,
+    "babel/generator-star-spacing": [2, { "before": false, "after": true }]
   },
+  "parser": "babel-eslint",
   "env": {
     "browser": true
   }

@@ -23,7 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.0.0",
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-babel": "^3.3.0",

@@ -1,6 +1,6 @@
-# miclint
+# miclint 
 
-miclint CLI.
+Mic lint CLI
 
 ## Installation
 
@@ -20,8 +20,10 @@ npm test
 
 ## Dependencies
 
+- [babel-eslint](https://github.com/babel/babel-eslint): Custom parser for ESLint
 - [eslint](https://github.com/eslint/eslint): An AST-based pattern checker for JavaScript.
 - [eslint-config-airbnb](https://github.com/airbnb/javascript): Airbnb&#39;s ESLint config, following our styleguide
+- [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel): an eslint rule plugin companion to babel-eslint
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Import with sanity.
 - [eslint-plugin-jsx](https://github.com/jkroso/eslint-plugin-jsx): JSX specific linting rules for ESLint
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y): A static analysis linter of jsx and their accessibility with screen readers.

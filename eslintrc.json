@@ -4,7 +4,6 @@
     "babel"
   ],
   "rules": {
-    "comma-dangle": [2, "never"],
     "generator-star-spacing": 0,
     "jsx-quotes": [2, "prefer-single"],
     "no-underscore-dangle": [0],

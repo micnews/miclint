@@ -18,6 +18,7 @@
     "react/display-name": [2, { "ignoreTranspilerName": true }],
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-filename-extension": [0],
+    "react/jsx-key": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/no-direct-mutation-state": 2,
     "react/require-extension": [0]

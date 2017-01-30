@@ -4,20 +4,23 @@
     "babel"
   ],
   "rules": {
-    "comma-dangle": [2, "never"],
-    "no-underscore-dangle": [0],
+    "generator-star-spacing": 0,
     "jsx-quotes": [2, "prefer-single"],
+    "no-underscore-dangle": [0],
+
+    "babel/generator-star-spacing": [2, { "before": false, "after": true }],
+
+    "import/no-commonjs": 2,
 
     "jsx-a11y/label-has-for": [0],
 
-    "react/require-extension": [0],
-    "react/jsx-filename-extension": [0],
-    "react/no-direct-mutation-state": 2,
+    "react/display-name": [2, { "ignoreTranspilerName": false }],
     "react/jsx-boolean-value": [2, "always"],
+    "react/jsx-filename-extension": [0],
+    "react/jsx-key": 2,
     "react/jsx-no-duplicate-props": 2,
-
-    "generator-star-spacing": 0,
-    "babel/generator-star-spacing": [2, { "before": false, "after": true }]
+    "react/no-direct-mutation-state": 2,
+    "react/require-extension": [0]
   },
   "parser": "babel-eslint",
   "env": {

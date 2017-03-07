@@ -13,6 +13,11 @@
       "flowtype/no-primitive-constructor-types": 2,
       "flowtype/object-type-delimiter": 2,
       "flowtype/type-id-match": 2,
+
+      "flowtype/require-return-type": 2,
+      "flowtype/require-valid-file-annotation": [2, "always", "line"],
+      "flowtype/require-parameter-type": [2, { "excludeArrowFunctions": "expressionsOnly" }],
+
       "import/no-duplicates": 2,
       "no-duplicate-imports": 0
   },

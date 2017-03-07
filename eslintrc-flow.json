@@ -17,6 +17,6 @@
       "no-duplicate-imports": 0
   },
   "plugins": [
-    "babel", "flowtype"
+    "babel", "flowtype", "import"
   ]
 }

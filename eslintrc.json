@@ -20,7 +20,9 @@
     "react/jsx-key": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/no-direct-mutation-state": 2,
-    "react/require-extension": [0]
+    "react/require-extension": [0],
+    "prefer-promise-reject-errors": 2,
+    "no-throw-literal": 2
   },
   "parser": "babel-eslint",
   "env": {

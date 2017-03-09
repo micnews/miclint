@@ -18,6 +18,8 @@
       "flowtype/require-valid-file-annotation": [2, "always", "line"],
       "flowtype/require-parameter-type": [2, { "excludeArrowFunctions": "expressionsOnly" }],
 
+      "react/require-default-props": 0,
+
       "import/no-duplicates": 2,
       "no-duplicate-imports": 0
   },

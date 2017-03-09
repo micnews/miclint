@@ -4,6 +4,7 @@
   * Functions must have return type annotation
   * Files must have a file annotation and it must always use the line version (`// @flow`)
   * Functions must have parameter type annotation
+  * React: Don't require defaultProps
 * **internal** Lint miclint!
 
 # v4.1.2

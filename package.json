@@ -24,15 +24,15 @@
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "~3.15.0",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-babel": "^4.0.0",
-    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.30.3",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx": "0.0.2",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.7.1",
-    "standard-engine": "^5.3.0"
+    "eslint-plugin-jsx": "^0.0.2",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "standard-engine": "^6.0.0"
   },
   "engines": {
     "node": ">=4"

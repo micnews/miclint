@@ -1,6 +1,7 @@
-var path = require('path');
-var pkg = require('./package.json');
-var eslint = require('eslint');
+/* eslint-disable import/no-commonjs */
+const path = require('path');
+const pkg = require('./package.json');
+const eslint = require('eslint');
 
 module.exports = {
   cmd: 'miclint',
@@ -8,11 +9,11 @@ module.exports = {
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
   tagline: 'Mic lint',
-  eslint: eslint,
+  eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json')
+    configFile: path.join(__dirname, 'eslintrc.json'),
   },
-  formatter: null
+  formatter: null,
 };
 
 module.exports.flow = {
@@ -21,9 +22,9 @@ module.exports.flow = {
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
   tagline: 'Mic lint - flow variant',
-  eslint: eslint,
+  eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc-flow.json')
+    configFile: path.join(__dirname, 'eslintrc-flow.json'),
   },
-  formatter: null
+  formatter: null,
 };

@@ -10,7 +10,7 @@ module.exports = {
   tagline: 'Mic lint',
   eslint: eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json')
+    configFile: path.join(__dirname, 'eslint-config-mic/index.js')
   },
   formatter: null
 };
@@ -23,7 +23,7 @@ module.exports.flow = {
   tagline: 'Mic lint - flow variant',
   eslint: eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc-flow.json')
+    configFile: path.join(__dirname, 'eslint-config-mic/flow/index.js')
   },
   formatter: null
 };

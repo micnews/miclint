@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-mic",
+  "version": "1.0.0-alpha.1",
+  "description": "an eslint config used by the development team at mic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mic Network, Inc.",
+  "license": "MIT"
+}

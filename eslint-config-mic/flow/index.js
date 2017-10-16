@@ -1,6 +1,7 @@
 module.exports = {
   extends: ["../index.js", "plugin:flowtype/recommended"],
   rules: {
+    "flowtype/define-flow-type": 2,
     "flowtype/delimiter-dangle": [2, "always"],
     "flowtype/no-dupe-keys": 2,
     "flowtype/no-primitive-constructor-types": 2,

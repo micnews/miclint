@@ -1,6 +1,19 @@
-# miclint 
+# miclint cli
 
-Mic lint CLI
+This is a CLI tool for linting codebases using `eslint-config-mic`. You can run it like this:
+
+```bash
+# normal
+miclint
+
+# with support for flow types
+miclint --flow
+
+# to fix easy problems
+miclint --fix
+```
+
+If you would prefer a more custom setup, you can integrate `eslint-config-mic` into your existing `eslint` setup For more information on that, go [here](/eslint-config-mic).
 
 ## Installation
 

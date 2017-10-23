@@ -9,13 +9,13 @@
   "author": "Mic Network, Inc.",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "~3.15.0",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-babel": "^4.0.0",
-    "eslint-plugin-flowtype": "^2.30.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.7.1"
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
   }
 }

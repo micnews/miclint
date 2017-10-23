@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mic",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "an eslint config used by the development team at mic",
   "main": "index.js",
   "scripts": {

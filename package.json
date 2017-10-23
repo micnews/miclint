@@ -1,6 +1,6 @@
 {
   "name": "miclint",
-  "version": "6.0.0-alpha.1",
+  "version": "6.0.0-alpha.2",
   "description": "Mic lint CLI",
   "main": "index.js",
   "repository": {
